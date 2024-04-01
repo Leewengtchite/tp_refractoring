@@ -10,7 +10,8 @@ package iut.bad;
  */
 public class Homme extends Humain {
    
-    public Homme() {
+    public Homme(String homme, String lee, int par) {
+        super(homme,lee,par);
     }
     
    

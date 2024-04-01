@@ -8,12 +8,17 @@ package iut.bad;
  *
  * @author leewt
  */
-public class Femme {
+public class Femme extends Humain{
     
     
-    public Femme() {
+    public Femme(String femme, String marie, int par) {
+         super(femme, marie, par);
     }
-    
+    public static void main(String[] args){
+        Femme femme = new Femme("Femme", "Marie", 20);
+        Homme homme = new Homme("Homme", "Lee", 25);
+        femme.ami(homme);
+    }
 
 
 }
