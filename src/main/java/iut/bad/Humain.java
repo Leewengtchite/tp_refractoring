@@ -23,6 +23,10 @@ public class Humain {
         this.age = age;
     }
     
+      public void details() {
+        System.out.println("Nom: " + nom + ", Prénom: " + prenom + ", Âge: " + age);
+    }
+    
     public String getNom() {
         return nom;
     }

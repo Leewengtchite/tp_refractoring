@@ -4,6 +4,8 @@
 
 package com.mycompany.refractoring;
 
+import iut.bad.Humain;
+
 /**
  *
  * @author leewt
@@ -12,5 +14,8 @@ public class Refractoring {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        Humain personne = new Humain("Someone", "SomeBody", 20);
+personne.details(); 
+
     }
 }
