@@ -14,9 +14,11 @@ public class Refractoring {
 
     public static void main(String[] args) {
         Humain personne = new Humain("Someone", "SomeBody", 20);
+        Humain personne2 = new Humain("Jean", "Paul", 25);
         personne.details(); 
         personne.manger();
         personne.boire();
+        personne.ami(personne2);
 
     }
 }
