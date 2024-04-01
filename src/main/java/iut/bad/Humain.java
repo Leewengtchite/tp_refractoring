@@ -8,7 +8,7 @@ package iut.bad;
  *
  * @author leewt
  */
-public class Humain {
+public class Humain implements Consommation {
 
     private String nom;
     private String prenom;

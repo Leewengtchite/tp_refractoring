@@ -13,9 +13,10 @@ import iut.bad.Humain;
 public class Refractoring {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
         Humain personne = new Humain("Someone", "SomeBody", 20);
-personne.details(); 
+        personne.details(); 
+        personne.manger();
+        personne.boire();
 
     }
 }
